@@ -11,7 +11,7 @@ const Portfolio = () => {
       id: 1,
       src: image,
       link: '#',
-      repo: '#'
+      repo: 'https://github.com/yashyt4980/random_gif_generator'
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Portfolio = () => {
       id: 3,
       src: rickgo,
       link: '#',
-      repo: '#'
+      repo: 'https://github.com/yashbhargava6740/RickGo'
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src}) => (
+          {portfolios.map(({ id, src, repo}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img 
                 src={src}
