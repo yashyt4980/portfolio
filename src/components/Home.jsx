@@ -58,7 +58,7 @@ const Home = () => {
         </div>
         <div className="big-screen">
           <img
-            src={HeroImage}
+            src=""
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
