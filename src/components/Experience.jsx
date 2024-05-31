@@ -7,10 +7,13 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
-import redux from "../assets/redux.png"
-import docker from "../assets/docker.png"
+import express from "../assets/express.png";
+import mongodb from "../assets/mongodb.png";
+import git from "../assets/git.png";
+import docker from "../assets/docker.png";
+import aws from "../assets/aws.png";
+import kafka from "../assets/kafka.png";
+import redis from "../assets/redis.png";
 const Experience = () => {
   const techs = [
     {
@@ -69,9 +72,9 @@ const Experience = () => {
     },
     {
       id: 10,
-      src: redux,
-      title: "Redux",
-      style: "shadow-purple-500",
+      src: git,
+      title: "Git",
+      style: "shadow-red-500",
     },
     {
       id: 11,
@@ -85,6 +88,25 @@ const Experience = () => {
       title: "Docker",
       style: "shadow-blue-500",
     },
+    {
+      id: 13,
+      src: redis,
+      title: "Redis",
+      style: "shadow-red-500",
+    },
+    {
+      id: 14,
+      src: kafka,
+      title: "Kafka",
+      style: "shadow-white",
+    },
+    {
+      id: 15,
+      src: aws,
+      title: "AWS",
+      style: "shadow-orange-500",
+    },
+
   ];
 
   return (

@@ -2,6 +2,8 @@ import React from "react";
 import gif from "../assets/portfolio/gif.png";
 import insta from "../assets/portfolio/insta.png";
 import evently from "../assets/portfolio/evently.png";
+import xtend from "../assets/portfolio/xtend.jpg";
+import chatapp from "../assets/portfolio/chatapp.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -22,6 +24,18 @@ const Portfolio = () => {
       link: 'https://glowing-sable-8a9ead.netlify.app/',
       repo: 'https://github.com/yashyt4980/random_gif_generator'
     },
+    {
+      id: 4,
+      src: xtend,
+      link: 'https://github.com/yashyt4980/final_scaler',
+      repo: 'https://github.com/yashyt4980/final_scaler'
+    },
+    {
+      id: 5,
+      src: chatapp,
+      link: 'https://github.com/yashbhargava6740/chat_app',
+      repo: 'https://github.com/yashbhargava6740/chat_app'
+    }
   ];
 
   return (
