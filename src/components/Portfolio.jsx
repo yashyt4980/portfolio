@@ -4,6 +4,7 @@ import insta from "../assets/portfolio/insta.png";
 import evently from "../assets/portfolio/evently.png";
 import xtend from "../assets/portfolio/xtend.jpg";
 import chatapp from "../assets/portfolio/chatapp.jpg";
+import movieLib from "../assets/portfolio/movieLib.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -14,28 +15,35 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: movieLib,
+      link: 'https://movielibv2.netlify.app/',
+      repo: 'https://github.com/yashbhargava6740/movieLib'
+    },
+    {
+      id: 3,
       src: insta,
       link: 'https://socialmedia-wvkr.onrender.com/',
       repo: 'https://github.com/yashyt4980/socialMedia'
     },
     {
-      id: 3,
-      src: gif,
-      link: 'https://glowing-sable-8a9ead.netlify.app/',
-      repo: 'https://github.com/yashyt4980/random_gif_generator'
+      id: 4,
+      src: chatapp,
+      link: 'https://github.com/yashbhargava6740/chat_app',
+      repo: 'https://github.com/yashbhargava6740/chat_app'
     },
     {
-      id: 4,
+      id: 5,
       src: xtend,
       link: 'https://github.com/yashyt4980/final_scaler',
       repo: 'https://github.com/yashyt4980/final_scaler'
     },
     {
-      id: 5,
-      src: chatapp,
-      link: 'https://github.com/yashbhargava6740/chat_app',
-      repo: 'https://github.com/yashbhargava6740/chat_app'
-    }
+      id: 6,
+      src: gif,
+      link: 'https://glowing-sable-8a9ead.netlify.app/',
+      repo: 'https://github.com/yashyt4980/random_gif_generator'
+    },
+    
   ];
 
   return (
